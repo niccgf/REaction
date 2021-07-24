@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">                    <!-- Diseño responsive para teléfonos -->
+        <link href="../recursos/favicon.ico" rel="shortcut icon">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="../style/style.css" /> -->
+        <link rel="stylesheet" href="../style/css/anewstyle.css" />
+        <link rel="stylesheet" href="../style/css/bootstrap.css" />
+        <title>REaction. - Nicolás Falcón.</title>
+    </head>
+    <body>
+    <div id="page-container">
+            <!-- Esta sección es el header, el título y navegador de menú -->  
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+                <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="../recursos/picture.png" class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                <span class="fs-4">REaction</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="propuesta.html" class="nav-link">Propuesta</a></li>
+                <li class="nav-item"><a href="tienda.html" class="nav-link">Tienda</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link active" aria-current="page">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    <hr>
+        <div id="content-wrap">
+            <div class=cuerpo>
+            <!-- Este es el cuerpo de la sección -->
+
+            <p class="titulos">
+                Contactanos
+            </p>
+
+            <p class="subtitulos2">Dejanos tus datos y tu consulta. Un asesor te dará respuesta por e-mail en el plazo de 2 días hábiles.</p>
+
+            <div class="container">
+                <form>
+                    <div class="form-group has-feedback">
+                        <label for="Name">Nombre</label>
+                        <input type="name" class="form-control" id="Name" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="Email1">Email</label>
+                        <input type="email" class="form-control" id="Email1" placeholder="Email" required>
+                    </div> 
+                    <div class="form-group has-feedback">
+                        <label for="Genero">Género</label>
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected>Elige uno</option>
+                            <option value="1">Hombre</option>
+                            <option value="2">Mujer</option>
+                            <option value="3">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Escribe tu consulta aquí</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <br>
+        <br>
+    <footer id="footer">
+        <div class="boxIndice">
+            <div class="indiceItems">
+                <a href="../pages/contacto.html">Contacto</a>
+                <a href="../pages/tyc.html">Términos y condiciones del sitio</a>
+            </div>
+            <div class="copyright">
+                Copyright © 2021<br>
+                REaction
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.contenedor {
+    position: relative;
+    height: 0;
+    padding-bottom:20%;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (min-width: 320px) {
+        iframe {
+            width: 300px;
+            height: 250px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        iframe {
+            width: 500px;
+            height: 350px;
+        }
+    }
+}

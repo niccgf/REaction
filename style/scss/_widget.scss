@@ -1,0 +1,15 @@
+.widget {
+    float: left;
+    padding:55px 50px 50px 50px;
+        @media (max-height: 900px) {
+            .twitter-timeline {
+                display:none !important;
+            }
+        }
+
+        @media screen and (min-height: 30rem) {
+            .twitter-timeline {
+                height:45rem !important;
+            }
+        }
+}

@@ -1,0 +1,40 @@
+@import "header";
+@import "fuentes";
+@import "indice";
+@import "widget";
+@import "iframe";
+@import "tables";
+
+
+a:link, a:visited, a:active{
+    text-decoration:none;
+}
+
+.links {
+    color: #337ab7;
+
+    .links:hover {
+        color:#1f4c74;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    background: linear-gradient(to bottom, #dfdfdf 6%, #f0f0f0 89%);
+    text-rendering: optimizeLegibility;
+}
+
+.cuerpo {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#page-container {
+    position:relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 7rem;
+}

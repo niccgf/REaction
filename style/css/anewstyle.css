@@ -1,0 +1,187 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); }
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray); }
+  .form-control-dark .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25); }
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor; }
+
+.text-small {
+  font-size: 85%; }
+
+.dropdown-toggle {
+  outline: 0; }
+
+.regular {
+  font-size: 16px;
+  color: #004D40; }
+
+.regularsmall {
+  font-family: 'lucida grande', sans-serif;
+  font-size: 10px; }
+
+#bold {
+  font-weight: 500; }
+
+.regulartyc {
+  font-family: 'lucida grande', sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-left: 20px; }
+
+.titulos {
+  color: #4DB6AC;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-left: 4%; }
+
+.subtitulos {
+  color: #003a30;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-left: 1%; }
+
+.subtitulos2 {
+  color: #173631;
+  font-size: 19px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-left: 1%; }
+
+.subtitulos3 {
+  color: #4DB6AC;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-left: 1%; }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7rem; }
+  #footer .boxIndice {
+    border-top: 1px solid gray;
+    padding-top: 1%;
+    font-family: "Lato", sans-serif;
+    font-size: 13px; }
+    #footer .boxIndice .indiceItems {
+      margin-left: 4%; }
+    #footer .boxIndice a {
+      color: #333;
+      padding-right: 10px; }
+    #footer .boxIndice .copyright {
+      font-size: 13px;
+      margin-left: 4%;
+      margin-top: 1%;
+      color: #666; }
+
+.widget {
+  float: left;
+  padding: 55px 50px 50px 50px; }
+  @media (max-height: 900px) {
+    .widget .twitter-timeline {
+      display: none !important; } }
+  @media screen and (min-height: 30rem) {
+    .widget .twitter-timeline {
+      height: 45rem !important; } }
+
+.contenedor {
+  position: relative;
+  height: 0;
+  padding-bottom: 20%;
+  overflow: hidden; }
+  .contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  @media (min-width: 320px) {
+    .contenedor iframe {
+      width: 300px;
+      height: 250px; } }
+  @media (min-width: 768px) {
+    .contenedor iframe {
+      width: 500px;
+      height: 350px; } }
+
+.tabla {
+  margin: 1rem 0;
+  min-width: 300px;
+  background: #eeeeee;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  color: #fff; }
+  .tabla tr {
+    border: 1px solid;
+    border-color: #00b300; }
+  .tabla th {
+    display: none;
+    background: #47a547; }
+  .tabla td {
+    display: block;
+    color: #003a30; }
+    .tabla td:first-child {
+      padding-top: 0.5rem; }
+    .tabla td:last-child {
+      padding-bottom: 0.5rem; }
+    .tabla td:before {
+      font-weight: bold;
+      width: 6.5rem;
+      display: inline-block; }
+    @media (min-width: 480px) {
+      .tabla td {
+        display: none; } }
+  .tabla th, .tabla td {
+    text-align: left;
+    margin: 0.5rem 1rem;
+    padding: 1rem !important; }
+    @media (min-width: 480px) {
+      .tabla th, .tabla td {
+        display: table-cell;
+        padding: 1rem; }
+        .tabla th:first-child, .tabla td:first-child {
+          padding-left: 0; }
+        .tabla th:last-child, .tabla td:last-child {
+          padding-right: 0; } }
+
+a:link, a:visited, a:active {
+  text-decoration: none; }
+
+.links {
+  color: #337ab7; }
+  .links .links:hover {
+    color: #1f4c74; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background: linear-gradient(to bottom, #dfdfdf 6%, #f0f0f0 89%);
+  text-rendering: optimizeLegibility; }
+
+.cuerpo {
+  margin-left: 5%;
+  margin-right: 5%; }
+
+#page-container {
+  position: relative;
+  min-height: 100vh; }
+
+#content-wrap {
+  padding-bottom: 7rem; }
